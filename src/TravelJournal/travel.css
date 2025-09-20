@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+     font-family: Inter, sans-serif;
+     font-size: 1.2rem;
+}
+hrml,body{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #F55A5A;
+    justify-content: center;
+}
+#logo{
+    height: 30px;
+}
+#header-text{
+    margin-left: 10px;
+    color: white;
+
+}
+#entry{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#japan{
+    height: 250px;
+    width: 225px;
+    border-radius: 10px;
+}
+#japan-header{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+#japan-maplink{
+    color:grey;
+}
+#japan-descrip{
+    display:inline-block;
+    margin-left: 48%;
+    background-color: #F55A5A;
+    margin-bottom: 40%;
+}
