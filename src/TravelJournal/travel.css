@@ -18,31 +18,60 @@ header{
 #header-text{
     margin-left: 10px;
     color: white;
+    font-size: 0.9rem;
 
 }
 #entry{
     display:flex;
-    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
     align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#japan-container{
+    /* height: 240px; */
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    margin-top: 15px;
+   
 }
 #japan{
-    height: 250px;
-    width: 225px;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     border-radius: 5px;
+     flex-shrink: 0;
+    
 }
-#japan-header{
-    display:flex;
-    align-items: center;
-    gap: 20px;
-    margin-left: 10px;
-    margin-bottom: 90px;
+#country{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-right: 12px;
 }
 #japan-maplink{
     color:grey;
+    font-size: 0.8rem;
+    text-decoration: none;
 }
-#japan-descrip{
-    display:inline-block;
-    margin-left: 48%;
-    background-color: #F55A5A;
-    margin-bottom: 40%;
+#entry-title{
+    margin-top: 7px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#entry-date{
+    font-weight: bold;
+}
+#entry-text{
+     line-height: 1.5;
+    font-size: 0.8rem;
+     
+}
+#japan-header{
+    margin-left: 15px;
+
+}
+#location{
+    height: 15px;
 }
