@@ -6,6 +6,10 @@
 hrml,body{
     margin: 0;
 }
+.container{
+    margin: 45px 40px;
+
+}
 header{
     display: flex;
     align-items: center;
@@ -63,13 +67,14 @@ header{
 #entry-date{
     font-weight: bold;
 }
-#entry-text{
+.entry-text{
      line-height: 1.5;
     font-size: 0.8rem;
      
 }
 #japan-header{
     margin-left: 15px;
+    
 
 }
 #location{

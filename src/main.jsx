@@ -4,5 +4,6 @@ import { createRoot } from "react-dom/client"
 import Travel from "./TravelJournal/Travel"
 
 
+
 const root=createRoot(document.getElementById("root"))
   root.render(<Travel/>)

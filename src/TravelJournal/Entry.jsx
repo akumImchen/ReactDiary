@@ -1,21 +1,25 @@
-export default function Entry() {
+export default function Entry(props) {
     return (
         <>
             <section id="entry">
                 <div id="japan-container">
-                    <img src="src/TravelJournal/japan.jpeg" id="japan" alt="japan" />
+                    <img src={props.img.src} 
+                    id="japan"  
+                    alt={props.img.alt}
+                    />
 
                 </div>
                 
                 <div id="japan-header" >
-                    <img src="src/TravelJournal/location.png" alt="location-logo"  id="location"/>
-                    <span id="country">Japan</span>
-                    <a href="https://www.google.com/maps/place/Mount+Fuji/@35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu" id="japan-maplink">View on Google Maps</a>
-                    <h2 id="entry-title">Mount Fuji</h2>
-                    <p id="entry-dates">12 Jan, 2026 - 24 Jan, 2026</p>
-                    <p id="entry-text">
-                        Mount Fuji is the tallest mountain in Japan, standing<br></br> at 3,776 meters (12,380 feet). Mount Fuji is the single <br></br>most popular tourist site in Japan, for both Japanese and foreign tourists.
+                    <img src={props.img1.src} alt={props.img1.alt}  id="location"/>
+                    <span id="country">{props.miniText}</span>
+                    <a href={props.link} id="japan-maplink">View on Google Maps</a>
+                    <h2 id="entry-title">{props.title}</h2>
+                    <p id="entry-dates">{props.dates}</p>
+                    <p class="entry-text">
+                        {props.text}
                     </p>
+                    <p class="entry-text">{props.text1}</p>
                 </div>
             </section>
             <div id="japan-descrip">

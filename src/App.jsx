@@ -1,12 +1,11 @@
-import Main from "./Components/Main";
-import Navbar from "./Components/Navbar";
+import Travel from "./TravelJournal/Travel"
 import "./index.css"
 
 export default function App() {
     return (
         <>
-             <Navbar />
-            <Main />
+             <Travel/>
+             
            
         </>
 
