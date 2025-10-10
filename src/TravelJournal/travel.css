@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
      font-family: Inter, sans-serif;
-     
+
 }
 hrml,body{
     margin: 0;
@@ -29,7 +29,8 @@ header{
     display: flex;
     margin-bottom: 36px;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 400px;
 }
 #main-image-container{
    width: 125px;

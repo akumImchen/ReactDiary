@@ -1,11 +1,13 @@
 export default function Entry(props) {
+    console.log(props);
+    
     return (
         <>
             <section id="entry">
                 <div id="main-image-container">
                     <img id="image"
-                        src={props.img.src}
-                        alt={props.img.alt}
+                        src={props.info.img.src}
+                        alt={props.info.img.alt}
                     />
 
                 </div>
@@ -16,12 +18,12 @@ export default function Entry(props) {
                         alt="map-marker-icon"
                         id="location"
                     />
-                    <span id="country">{props.country}</span>
-                    <a href={props.googleMapsLink} target="_blank" > View on Google Maps</a>
-                    <h2 id="entry-title">{props.title}</h2>
-                    <p id="entry-dates">{props.dates}</p>
+                    <span id="country">{props.info.country}</span>
+                    <a href={props.info.googleMapsLink} target="_blank" > View on Google Maps</a>
+                    <h2 id="entry-title">{props.info.title}</h2>
+                    <p id="entry-dates">{props.info.dates}</p>
                     <p class="entry-text">
-                        {props.text}
+                        {props.info.text}
                     </p>
                 </div>
             </section>
