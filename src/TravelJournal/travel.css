@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
      font-family: Inter, sans-serif;
-     font-size: 1.2rem;
+     
 }
 hrml,body{
     margin: 0;
 }
 .container{
-    margin: 45px 40px;
+    margin: 45px  40px;
 
 }
 header{
@@ -26,27 +26,25 @@ header{
 
 }
 #entry{
-    display:flex;
-    /* justify-content: center;
-    align-items: center; */
+    display: flex;
+    margin-bottom: 36px;
     align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
-#japan-container{
-    /* height: 240px; */
-    width: 240px;
-    height: 240px;
+#main-image-container{
+   width: 125px;
+    height: 168px;
     overflow: hidden;
-    margin-top: 15px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+    
    
 }
-#japan{
-    width: 100%;
+#image{
     height: 100%;
+    width: 100%;
     object-fit: cover;
-     border-radius: 5px;
-     flex-shrink: 0;
     
 }
 #country{
@@ -54,15 +52,14 @@ header{
     text-transform: uppercase;
     margin-right: 12px;
 }
-#japan-maplink{
+a{
     color:grey;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-decoration: none;
 }
 #entry-title{
-    margin-top: 7px;
-    font-size: 1.5rem;
-    font-weight: bold;
+   margin-top: 7px;
+    margin-bottom: 17px;
 }
 #entry-date{
     font-weight: bold;
@@ -72,8 +69,9 @@ header{
     font-size: 0.8rem;
      
 }
-#japan-header{
+#entry-header{
     margin-left: 15px;
+    margin-bottom: 36px;
     
 
 }
